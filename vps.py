@@ -9,8 +9,8 @@ BINARY_PATH = "./nand"
 process = None
 target_ip = None
 target_port = None
-attack_time = lala  # Default time
-threads =   # Default thread count
+attack_time = 240  # Default time
+threads = 1200  # Default thread count
 
 # Start command: Show Attack button
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -101,7 +101,7 @@ async def handle_action(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # Main function to start the bot
 def main():
     # Your Telegram bot token
-    TOKEN = "7776095029:AAEa8eN8GliPVFWeG_GK49wPrnn0W72Gp1w"
+    TOKEN = "7665852969:AAHIiqVKQq9wpCyBKd53S0QJjpXKhYq6A74"
 
     # Create Application object with your bot's token
     application = Application.builder().token(TOKEN).build()
